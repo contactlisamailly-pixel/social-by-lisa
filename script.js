@@ -12,7 +12,7 @@
   const photo = (id, src, alt, label) => { const i = document.getElementById(id); i.alt = alt; i.onerror = () => { i.onerror = null; i.src = ph(label); }; i.src = src; };
 
   document.querySelectorAll('[data-k]').forEach(n => { const v = get(c, n.dataset.k); if (typeof v === 'string') rich(n, v); });
-  document.querySelectorAll('[data-mail]').forEach(a => a.href = mail(c.contact.subjectGeneric));
+  document.querySelectorAll('[data-mail]').forEach(a => a.href = '#contact');
 
   // SEO
   document.title = c.seo.title;
