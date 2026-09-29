@@ -37,18 +37,28 @@
 <aside class="sur-mesure"><h3 data-k="custom.title"></h3><p data-k="custom.text"></p><a class="btn" data-mail data-k="custom.cta"></a></aside></section>
 <section id="methode" class="sec"><h2 data-k="method.title"></h2><p class="intro" data-k="method.intro"></p><ol id="steps" class="steps"></ol><p class="note" data-k="method.note"></p></section>
 <section id="portfolio" class="sec alt"><h2 data-k="portfolio.title"></h2><p class="intro" data-k="portfolio.intro"></p><div id="cases" class="cases"></div></section>
-<section id="avis" class="sec"><h2 data-k="reviews.title"></h2><p class="intro" data-k="reviews.intro"></p><div id="reviews" class="reviews"></div></section>
+<section id="avis" class="sec"><h2 data-k="reviews.title"></h2><p class="intro" data-k="reviews.intro"></p><div id="reviews" class="reviews"></div>
+<div class="partners-block">
+  <h3 data-k="reviews.partnersTitle" class="partners-title"></h3>
+  <div id="partners" class="partners-grid"></div>
+</div>
+</section>
 <section id="apropos" class="sec alt"><div class="about"><figure class="photo"><img id="aboutimg" width="640" height="800" alt="" loading="lazy"></figure><div><h2 data-k="about.title"></h2><div id="about"></div></div></div></section>
 <section id="faq" class="sec"><h2 data-k="faq.title"></h2><div id="faqlist" class="faq"></div></section>
 <section class="band"><h2 data-k="cta.title"></h2><p data-k="cta.text"></p><a class="btn light" data-mail data-k="cta.button"></a></section>
-<section id="contact" class="sec"><h2 data-k="contact.title"></h2><p class="intro" data-k="contact.intro"></p>
-<form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot" class="form">
-<input type="hidden" name="form-name" value="contact"><p hidden><label>Ne pas remplir <input name="bot"></label></p>
-<label>Nom<input name="nom" required autocomplete="name"></label>
-<label>E-mail<input type="email" name="email" required autocomplete="email"></label>
-<label>Votre projet<textarea name="message" rows="5" required></textarea></label>
-<button class="btn" type="submit" data-k="contact.submit">Envoyer</button></form>
-<ul id="socials" class="socials"></ul></section>
+<section id="contact" class="sec center-contact">
+<div class="contact-box">
+  <h2 data-k="contact.title"></h2>
+  <p class="intro" data-k="contact.intro"></p>
+  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot" class="form">
+  <input type="hidden" name="form-name" value="contact"><p hidden><label>Ne pas remplir <input name="bot"></label></p>
+  <label>Nom<input name="nom" required autocomplete="name"></label>
+  <label>E-mail<input type="email" name="email" required autocomplete="email"></label>
+  <label>Votre projet<textarea name="message" rows="5" required></textarea></label>
+  <button class="btn" type="submit" data-k="contact.submit">Envoyer</button></form>
+  <ul id="socials" class="socials"></ul>
+</div>
+</section>
 </main>
 <footer><p data-k="footer.text"></p><p><a class="footer-mail" data-mail data-k="footer.email"></a></p></footer>
 <script src="script.js" defer></script>
