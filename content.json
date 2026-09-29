@@ -5,10 +5,11 @@
     "logo": "images/logo.png"
   },
   "seo": {
-    "title": "Community Manager Freelance Lille & À Distance | Social by Lisa",
-    "description": "Community Manager & Social Media Manager freelance basée dans la métropole lilloise et 100 % à distance partout en France.",
-    "url": "https://contactlisamailly-pixel.github.io/social-by-lisa/",
-    "ogImage": "images/partage.jpg"
+  "title": "Community Manager Freelance Lille & À Distance | Social by Lisa",
+  "description": "Community Manager & Social Media Manager freelance basée dans la métropole lilloise et 100 % à distance partout en France.",
+  "url": "https://socialbylisa.fr/",
+  "ogImage": "images/partage.jpg"
+},
   },
   "nav": [
     {
