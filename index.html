@@ -49,12 +49,12 @@
 <div class="contact-box">
   <h2 data-k="contact.title"></h2>
   <p class="intro" data-k="contact.intro"></p>
-  <form name="contact" method="POST" data-netlify="true" netlify-honeypot="bot" class="form">
-  <input type="hidden" name="form-name" value="contact"><p hidden><label>Ne pas remplir <input name="bot"></label></p>
+ <form action="https://formspree.io/f/maenvngr" method="POST" class="form">
   <label>Nom<input name="nom" required autocomplete="name"></label>
   <label>E-mail<input type="email" name="email" required autocomplete="email"></label>
   <label>Votre projet<textarea name="message" rows="5" required></textarea></label>
-  <button class="btn" type="submit" data-k="contact.submit">Envoyer</button></form>
+  <button class="btn" type="submit" data-k="contact.submit">Envoyer</button>
+</form>
   <ul id="socials" class="socials"></ul>
 </div>
 </section>
