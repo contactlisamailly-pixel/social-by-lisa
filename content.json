@@ -139,7 +139,7 @@
       {
         "brand": "OptiVet",
         "tag": "Stratégie social media",
-        "objective": "Développer la visibilité locale de la clinique vétérinaire, valoriser son expertise et créer plus de proximité avec les propriétaires d'animaux, grâce à des contenus pédagogiques et rassurants.",
+        "objective": "Conception d'une stratégie social media pour développer la visibilité locale de la clinique vétérinaire, valoriser son expertise et créer plus de proximité avec les propriétaires d'animaux, grâce à des contenus pédagogiques et rassurants.",
         "stats": [
           {
             "value": "Pédagogie",
@@ -160,7 +160,7 @@
       {
         "brand": "Studio Alma Pilates",
         "tag": "Stratégie social media & création de contenu",
-        "objective": "Permettre aux futurs clients de découvrir l'univers du studio, de comprendre les bénéfices du Pilates et de lever les freins liés à une première séance.",
+        "objective": "Conception d'une stratégie social media pour permettre aux futurs clients de découvrir l'univers du studio, de comprendre les bénéfices du Pilates et de lever les freins liés à une première séance.",
         "stats": [
           {
             "value": "Immersion",
@@ -252,19 +252,18 @@
       },
       {
         "quote": "Une belle collaboration avec Lisa, qui a très vite compris notre marque, nos objectifs et nos problématiques. Elle a su proposer des idées pertinentes et créer des contenus adaptés à notre univers, afin de faire de nos réseaux sociaux un véritable levier de développement.",
-        "name": "Élise",
+        "name": "Elise",
         "role": "Chargée de communication",
         "example": false
       }
     ],
-    "partnersTitle": "Elles me font confiance",
+    "partnersTitle": "Ils m'ont fait confiance",
     "partners": [
       { "name": "Partenaire 1", "logo": "images/logo-partner1.png" },
       { "name": "Partenaire 2", "logo": "images/logo-partner2.png" },
       { "name": "Partenaire 3", "logo": "images/logo-partner3.png" },
       { "name": "Partenaire 4", "logo": "images/logo-partner4.png" },
-      { "name": "Partenaire 5", "logo": "images/logo-partner5.png" },
-      { "name": "Partenaire 6", "logo": "images/logo-partner6.png" }
+      
     ]
   },
   "faq": {
