@@ -258,13 +258,7 @@
       }
     ],
     "partnersTitle": "Ils m'ont fait confiance",
-    "partners": [
-      { "name": "Partenaire 1", "logo": "images/logo-partner1.png" },
-      { "name": "Partenaire 2", "logo": "images/logo-partner2.png" },
-      { "name": "Partenaire 3", "logo": "images/logo-partner3.png" },
-      { "name": "Partenaire 4", "logo": "images/logo-partner4.png" },
-      
-    ]
+    "partners": []
   },
   "faq": {
     "title": "Vous vous demandez *peut-être*…",
