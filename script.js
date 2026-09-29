@@ -7,7 +7,6 @@
   const el = (t, cls, txt) => { const n = document.createElement(t); if (cls) n.className = cls; if (txt != null) rich(n, txt); return n; };
   // *mot* => italique terracotta
   function rich(n, s) { n.textContent = ''; String(s).split('*').forEach((p, i) => { if (!p) return; if (i % 2) { const e = document.createElement('em'); e.textContent = p; n.append(e); } else n.append(p); }); }
-  const plain = s => String(s).replace(/\*/g, '');
   const mail = s => `mailto:${c.contact.email}?subject=${encodeURIComponent(s)}`;
   const ph = t => 'data:image/svg+xml,' + encodeURIComponent(`<svg xmlns="http://www.w3.org/2000/svg" width="640" height="800"><rect width="100%" height="100%" fill="#b96849"/><text x="50%" y="50%" fill="#f6efe6" font-size="26" text-anchor="middle" font-family="sans-serif">${t}</text></svg>`);
   const photo = (id, src, alt, label) => { const i = document.getElementById(id); i.alt = alt; i.onerror = () => { i.onerror = null; i.src = ph(label); }; i.src = src; };
@@ -39,7 +38,7 @@
   for (let k = 0; k < 2; k++) c.marquee.forEach(t => mq.append(el('span', '', t)));
   c.who.tags.forEach(t => document.getElementById('tags').append(el('li', '', t)));
 
-  // Offres (3 services, sans prix)
+  // Offres
   const box = document.getElementById('offers');
   const g = el('div', 'packs');
   c.offers.items.forEach(o => {
@@ -52,15 +51,14 @@
   });
   box.append(g);
 
-  // Méthode (vraie séquence)
+  // Méthode
   const st = document.getElementById('steps');
   c.method.steps.forEach(x => { const li = el('li'); li.append(el('h3', '', x.t), el('p', '', x.d)); st.append(li); });
 
-  // Portfolio : études de cas en aperçu "téléphone" façon feed Instagram
+  // Portfolio moderne
   const cases = document.getElementById('cases');
   c.portfolio.items.forEach(i => {
-    const art = el('article', 'case');
-    // aperçu téléphone
+    const art = el('article', 'case-modern');
     const phone = el('div', 'phone'); phone.append(el('div', 'phone-notch'));
     const screen = el('div', 'phone-screen');
     const head = el('div', 'ig-header');
@@ -71,9 +69,9 @@
     const actions = el('div', 'ig-actions', '♡  💬  ↗');
     const caption = el('div', 'ig-caption'); const b = document.createElement('b'); b.textContent = i.brand + ' '; caption.append(b, i.tag);
     screen.append(head, img, actions, caption); phone.append(screen); art.append(phone);
-    // texte du cas client
+    
     const body = el('div', 'case-body');
-    body.append(el('p', 'tag', i.tag), el('h3', '', i.brand), el('p', '', i.objective));
+    body.append(el('span', 'tag-badge', i.tag), el('h3', 'case-title', i.brand), el('p', 'case-desc', i.objective));
     const stats = el('ul', 'case-stats');
     i.stats.forEach(s => { const li = el('li'); li.append(el('strong', '', s.value), el('span', '', s.label)); stats.append(li); });
     body.append(stats); art.append(body); cases.append(art);
@@ -87,19 +85,52 @@
     f.append(q, el('figcaption', '', r.name + ' · ' + r.role)); rv.append(f);
   });
 
+  // Logos Partenaires
+  const partnersGrid = document.getElementById('partners');
+  if (c.reviews.partners) {
+    c.reviews.partners.forEach(p => {
+      const item = el('div', 'partner-item');
+      const img = document.createElement('img');
+      img.alt = p.name;
+      img.loading = 'lazy';
+      img.onerror = () => {
+        item.textContent = p.name;
+      };
+      img.src = p.logo;
+      item.append(img);
+      partnersGrid.append(item);
+    });
+  }
+
   // À propos
   const ab = document.getElementById('about');
   c.about.paragraphs.forEach(p => ab.append(el('p', '', p)));
   ab.append(el('p', '', c.about.location));
 
-  // FAQ + données structurées FAQPage
+  // FAQ
   const fl = document.getElementById('faqlist');
   c.faq.items.forEach(x => { const d = el('details'); d.append(el('summary', '', x.q), el('p', '', x.a)); fl.append(d); });
-  const ld = document.createElement('script'); ld.type = 'application/ld+json';
-  ld.textContent = JSON.stringify({ '@context': 'https://schema.org', '@type': 'FAQPage', mainEntity: c.faq.items.map(x => ({ '@type': 'Question', name: x.q, acceptedAnswer: { '@type': 'Answer', text: x.a } })) });
-  document.head.append(ld);
 
-  // Réseaux
+  // Réseaux sociaux cliquables avec icônes SVG
+  const svgIcons = {
+    instagram: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="2" y="2" width="20" height="20" rx="5" ry="5"></rect><path d="M16 11.37A4 4 0 1 1 12.63 8 4 4 0 0 1 16 11.37z"></path><line x1="17.5" y1="6.5" x2="17.51" y2="6.5"></line></svg>`,
+    linkedin: `<svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M16 8a6 6 0 0 1 6 6v7h-4v-7a2 2 0 0 0-2-2 2 2 0 0 0-2 2v7h-4v-7a6 6 0 0 1 6-6z"></path><rect x="2" y="9" width="4" height="12"></rect><circle cx="4" cy="4" r="2"></circle></svg>`
+  };
+
   const so = document.getElementById('socials');
-  c.contact.socials.forEach(s => { const li = el('li'); const a = el('a', '', s.label); a.href = s.url; a.target = '_blank'; a.rel = 'noopener'; li.append(a); so.append(li); });
+  c.contact.socials.forEach(s => { 
+    const li = el('li'); 
+    const a = el('a', 'social-link'); 
+    a.href = s.url; 
+    a.target = '_blank'; 
+    a.rel = 'noopener';
+    a.ariaLabel = s.label;
+    if (svgIcons[s.icon]) {
+      a.innerHTML = svgIcons[s.icon] + `<span>${s.label}</span>`;
+    } else {
+      a.textContent = s.label;
+    }
+    li.append(a); 
+    so.append(li); 
+  });
 })();
