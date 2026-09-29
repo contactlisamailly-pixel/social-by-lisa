@@ -1,0 +1,285 @@
+{
+  "_LISEZ-MOI": "Modifiez uniquement les textes à droite des ':'. Entourez un mot d'étoiles (*mot*) pour l'afficher en italique terracotta. Portfolio : mettez le chemin de votre image dans 'image' pour remplacer l'aperçu générique.",
+  "brand": {
+    "name": "Social by Lisa",
+    "logo": "images/logo.png"
+  },
+  "seo": {
+    "title": "Community Manager Freelance Lille & À Distance | Social by Lisa",
+    "description": "Community Manager & Social Media Manager freelance basée dans la métropole lilloise et 100 % à distance partout en France.",
+    "url": "https://socialbylisa.netlify.app/",
+    "ogImage": "images/partage.jpg"
+  },
+  "nav": [
+    {
+      "label": "Services",
+      "href": "#offres"
+    },
+    {
+      "label": "Notre collaboration",
+      "href": "#methode"
+    },
+    {
+      "label": "Portfolio",
+      "href": "#portfolio"
+    },
+    {
+      "label": "Avis",
+      "href": "#avis"
+    },
+    {
+      "label": "À propos",
+      "href": "#apropos"
+    },
+    {
+      "label": "FAQ",
+      "href": "#faq"
+    }
+  ],
+  "hero": {
+    "kicker": "Community & Social Media Manager · Métropole Lilloise & à distance",
+    "h1": "Community Manager près de Lille : des réseaux qui *mettent en valeur* votre savoir-faire",
+    "lead": "Vous êtes excellent dans votre métier. Je fais en sorte que vos réseaux sociaux le montrent : une présence régulière, claire et utile pour attirer les bonnes personnes.",
+    "positioning": "Une stratégie sur-mesure au service de votre activité : du contenu captivant et pensé pour impacter directement vos résultats.",
+    "cta1": "Découvrir mes services",
+    "cta2": "Réserver un appel découverte",
+    "zone": "Basée dans la métropole lilloise, j'accompagne les entreprises locales et 100 % à distance partout en France.",
+    "image": "images/lisa-accueil.jpg",
+    "imageAlt": "Lisa, Community Manager freelance près de Lille"
+  },
+  "contact": {
+    "email": "contact.lisamailly@gmail.com",
+    "subjectGeneric": "Demande d'appel découverte",
+    "title": "Parlons de votre projet",
+    "intro": "Un message suffit : je vous réponds sous 48 h avec une première piste concrète.",
+    "submit": "Envoyer ma demande",
+    "socials": [
+      {
+        "label": "Instagram",
+        "url": "https://www.instagram.com/social_bylisa/"
+      },
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/lisa-mailly-619302285/"
+      }
+    ]
+  },
+  "offers": {
+    "title": "Des services adaptés à vos besoins",
+    "intro": "Que vous ayez besoin de contenus prêts à publier, d'une gestion complète de vos réseaux ou d'un accompagnement pour reprendre la main, il y a une formule pour vous.",
+    "recommendedLabel": "Recommandé",
+    "items": [
+      {
+        "name": "Création de contenu",
+        "description": "Pour les entreprises qui souhaitent publier elles-mêmes, avec des contenus professionnels prêts à diffuser.",
+        "cta": "Échanger sur mon projet",
+        "features": [
+          "Réflexion stratégique de base",
+          "Calendrier éditorial",
+          "Création de contenu prêt à publier"
+        ]
+      },
+      {
+        "name": "Community Management",
+        "description": "Pour déléguer entièrement la gestion de vos réseaux sociaux et vous concentrer sur votre activité.",
+        "cta": "Je réserve",
+        "recommended": true,
+        "features": [
+          "Stratégie social media",
+          "Calendrier éditorial",
+          "Création de contenu (carrousels, visuels, vidéos...)",
+          "Modération & engagement",
+          "Reporting social media"
+        ]
+      },
+      {
+        "name": "Accompagnement & Coaching",
+        "description": "Pour les entrepreneurs qui veulent garder la main, avec un accompagnement ajusté à leurs besoins : audit de votre présence actuelle, proposition stratégique sur-mesure et coaching individuel (1:1) sur les réseaux sociaux.",
+        "cta": "Échanger sur mon projet",
+        "features": [
+          "Audit de votre présence actuelle",
+          "Proposition stratégique sur-mesure",
+          "Coaching individuel (1:1) sur les réseaux sociaux"
+        ]
+      }
+    ]
+  },
+  "custom": {
+    "title": "Un besoin particulier ?",
+    "text": "Lancement d'activité, projet spécifique ou besoins sur-mesure : nous pouvons construire une formule 100 % personnalisée adaptée à vos objectifs.",
+    "cta": "Construisons votre formule"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "intro": "Trois marques accompagnées, trois univers différents : un aperçu de mon travail.",
+    "items": [
+      {
+        "brand": "Maison Moulin",
+        "tag": "Stratégie social media & community management",
+        "objective": "Développer la visibilité de la marque, renforcer sa présence sur les réseaux sociaux et créer des contenus pensés pour accompagner son développement, dans une période de forte croissance de l'entreprise.",
+        "stats": [
+          {
+            "value": "+90 %",
+            "label": "de croissance de la communauté en 1 an"
+          },
+          {
+            "value": "5 500",
+            "label": "abonnés Instagram, contre 2 900 au départ"
+          },
+          {
+            "value": "65K+",
+            "label": "vues sur les publications les plus suivies"
+          }
+        ],
+        "image": "images/portfolio-maison-moulin.jpg",
+        "alt": "Aperçu Instagram de la stratégie social media réalisée pour Maison Moulin, marque de croquettes pour chiens et chats"
+      },
+      {
+        "brand": "OptiVet",
+        "tag": "Stratégie social media",
+        "objective": "Développer la visibilité locale de la clinique vétérinaire, valoriser son expertise et créer plus de proximité avec les propriétaires d'animaux, grâce à des contenus pédagogiques et rassurants.",
+        "stats": [
+          {
+            "value": "Pédagogie",
+            "label": "des contenus qui informent sans jargon technique"
+          },
+          {
+            "value": "Proximité",
+            "label": "une communication plus humaine avec les propriétaires d'animaux"
+          },
+          {
+            "value": "Confiance",
+            "label": "une image d'expertise plus accessible au quotidien"
+          }
+        ],
+        "image": "images/portfolio-optivet.jpg",
+        "alt": "Aperçu des contenus pédagogiques réalisés pour la clinique vétérinaire OptiVet"
+      },
+      {
+        "brand": "Studio Alma Pilates",
+        "tag": "Stratégie social media & création de contenu",
+        "objective": "Permettre aux futurs clients de découvrir l'univers du studio, de comprendre les bénéfices du Pilates et de lever les freins liés à une première séance.",
+        "stats": [
+          {
+            "value": "Immersion",
+            "label": "des contenus qui font ressentir l'expérience du studio"
+          },
+          {
+            "value": "Réassurance",
+            "label": "des formats pédagogiques pensés pour les débutants"
+          },
+          {
+            "value": "Conversion",
+            "label": "un parcours de contenu pensé pour conduire à la réservation"
+          }
+        ],
+        "image": "images/portfolio-alma-pilates.jpg",
+        "alt": "Aperçu des contenus créés pour le Studio Alma Pilates, présentant l'expérience du studio"
+      }
+    ]
+  },
+  "about": {
+    "title": "Derrière les réseaux, *une vraie personne*",
+    "paragraphs": [
+      "Je suis Lisa, Community & Social Media Manager freelance. J'aide les entreprises à construire une présence sur les réseaux plus claire, plus régulière et surtout plus utile pour leur activité.",
+      "Ma façon de travailler : J'aime d'abord comprendre votre entreprise, votre univers et ce que vous voulez vraiment transmettre. Ensuite, je transforme tout ça en contenus pensés pour attirer les bonnes personnes.",
+      "Ce qui me caractérise : Stratégique, créative et organisée, avec plus de 6 ans d'expérience en communication et une expertise reconnue de l'univers animalier.",
+      "Avec toujours la même idée en tête : transformer votre savoir-faire en contenus captivants qui vous ramènent des clients.",
+      "Vous échangez toujours directement avec moi : pas d'intermédiaire, une écoute attentive et un accompagnement humain."
+    ],
+    "location": "Basée dans la métropole lilloise : accompagnement local et 100 % à distance partout en France.",
+    "image": "images/lisa-apropos.jpg",
+    "imageAlt": "Lisa, Community Manager freelance"
+  },
+  "footer": {
+    "text": "© 2026 Social by Lisa · Community Manager freelance, Lille & à distance",
+    "email": "contact.lisamailly@gmail.com"
+  },
+  "nav_cta": "Me contacter",
+  "marquee": [
+    "Community management",
+    "Stratégie de contenu",
+    "Reels & carrousels",
+    "Création visuelle",
+    "Coaching réseaux sociaux",
+    "Community manager Lille"
+  ],
+  "who": {
+    "title": "Chaque activité a une histoire à raconter",
+    "text": "Commerçant, artisan, cabinet, professionnel du secteur animalier ou indépendant : vous faites un travail remarquable, mais vos réseaux ne le reflètent pas encore pleinement. C'est exactement ce que nous structurons ensemble.",
+    "tags": [
+      "Commerces & boutiques",
+      "Univers animalier",
+      "Artisans & créateurs",
+      "Indépendants & coachs",
+      "TPE & PME"
+    ]
+  },
+  "method": {
+    "title": "Notre collaboration, *étape par étape*",
+    "intro": "Une démarche fluide et transparente pour avancer en toute confiance.",
+    "steps": [
+      {
+        "t": "L'échange",
+        "d": "Un premier appel pour comprendre votre activité, votre univers, vos besoins et définir la formule adaptée."
+      },
+      {
+        "t": "L'analyse & la stratégie",
+        "d": "Étude de votre marché, définition des objectifs, de la ligne éditoriale et de la charte visuelle."
+      },
+      {
+        "t": "La création & la gestion",
+        "d": "Production des contenus (visuels, vidéos, rédaction), validation ensemble et programmation des publications."
+      },
+      {
+        "t": "L'analyse & l'optimisation",
+        "d": "Suivi des résultats, bilans réguliers et ajustements pour affiner la stratégie au fil des mois."
+      }
+    ],
+    "note": "*Étapes types d'un accompagnement en Community Management ; adaptées selon la formule choisie."
+  },
+  "reviews": {
+    "title": "Ce que disent *mes clients*",
+    "intro": "Des retours d'expérience de professionnels accompagnés.",
+    "items": [
+      {
+        "quote": "Merci Lisa pour le travail réalisé. La stratégie proposée est très complète et permet d'avoir une vision claire de la communication à mettre en place sur nos réseaux sociaux.",
+        "name": "Sylvain",
+        "role": "Vétérinaire",
+        "example": false
+      },
+      {
+        "quote": "Une belle collaboration avec Lisa, qui a très vite compris notre marque, nos objectifs et nos problématiques. Elle a su proposer des idées pertinentes et créer des contenus adaptés à notre univers, afin de faire de nos réseaux sociaux un véritable levier de développement.",
+        "name": "Élise",
+        "role": "Chargée de communication",
+        "example": false
+      }
+    ]
+  },
+  "faq": {
+    "title": "Vous vous demandez *peut-être*…",
+    "items": [
+      {
+        "q": "Intervenez-vous seulement dans la région lilloise ?",
+        "a": "Non. Je suis basée près de Lille, mais je travaille à 100 % à distance avec des clients basés partout en France."
+      },
+      {
+        "q": "Quelle formule choisir entre Community Management et Création de contenu ?",
+        "a": "Si vous souhaitez déléguer toute la gestion (rédaction, publication, modération, stories), choisissez le Community Management. Si vous souhaitez publier vous-même mais avoir du contenu professionnel prêt à diffuser, la Création de contenu est idéale. Nous faisons le point lors de l'appel découverte."
+      },
+      {
+        "q": "Proposez-vous un accompagnement sur-mesure ?",
+        "a": "Oui tout à fait. Si vos besoins ne rentrent pas dans les packs standards, nous composons une offre adaptée à vos priorités et à votre budget."
+      },
+      {
+        "q": "Sur quelles plateformes intervenez-vous ?",
+        "a": "Principalement sur Instagram, Facebook et LinkedIn, en ciblant les réseaux les plus pertinents pour votre clientèle."
+      }
+    ]
+  },
+  "cta": {
+    "title": "Prêt à valoriser votre activité sur les réseaux ?",
+    "text": "Échangeons sur votre projet et voyons comment développer la visibilité de votre entreprise.",
+    "button": "Réserver un appel découverte"
+  }
+}
