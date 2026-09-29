@@ -46,7 +46,18 @@
     if (o.recommended) d.append(el('span', 'badge', c.offers.recommendedLabel));
     d.append(el('h4', '', o.name), el('p', '', o.description));
     const ul = el('ul', 'features'); o.features.forEach(f => ul.append(el('li', '', f))); d.append(ul);
-    const a = el('a', 'btn', o.cta); a.href = mail(`Demande d'information - ${o.name}`); d.append(a);
+    
+    const a = el('a', 'btn', o.cta);
+    // Coaching / Accompagnement / Sur-mesure -> Formulaire de contact
+    if (o.name.includes("Coaching") || o.name.includes("Accompagnement") || o.name.includes("Sur-mesure")) {
+      a.href = '#contact';
+    } else {
+      // Offres standard -> Lien direct Cal.com
+      a.href = 'https://cal.com/lisa-mailly/30min';
+      a.target = '_blank';
+      a.rel = 'noopener';
+    }
+    d.append(a);
     g.append(d);
   });
   box.append(g);
