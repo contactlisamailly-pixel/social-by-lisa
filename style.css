@@ -133,7 +133,7 @@ em{font-style:italic;color:var(--accent)}
 .review blockquote{margin:0;font:500 1.15rem/1.5 Fraunces,serif}.review figcaption{font-weight:600;font-size:.95rem}
 .tag{align-self:flex-start;background:var(--soft);border:1px dashed var(--accent);border-radius:99px;padding:.1rem .7rem;font-size:.8rem}
 
-/* Section Logos Partenaires sous les avis */
+/* Section Logos Partenaires sous les avis (Agrandis) */
 .partners-block {
   margin-top: 3.5rem;
   text-align: center;
@@ -145,27 +145,28 @@ em{font-style:italic;color:var(--accent)}
 }
 .partners-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(130px, 1fr));
-  gap: 1.2rem;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1.5rem;
   align-items: center;
   justify-content: center;
 }
 .partner-item {
   background: #fff;
-  border-radius: 10px;
-  padding: 1rem;
-  height: 80px;
+  border-radius: var(--r);
+  padding: 1.2rem;
+  height: 110px; /* Augmenté de 80px à 110px */
   display: flex;
   align-items: center;
   justify-content: center;
   border: 1px solid #1a1a1a15;
   font-weight: 600;
   color: var(--accent);
-  font-size: .85rem;
+  font-size: 1rem;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.02);
 }
 .partner-item img {
-  max-width: 100%;
-  max-height: 100%;
+  max-width: 90%; /* Augmenté pour prendre plus de place */
+  max-height: 90%;
   object-fit: contain;
 }
 
