@@ -1,5 +1,5 @@
 {
-  "_LISEZ-MOI": "Modifiez uniquement les textes à droite des ':'. Entourez un mot d'étoiles (*mot*) pour l'afficher en italique terracotta. Portfolio : mettez le chemin de votre image dans 'image' pour remplacer l'aperçu générique.",
+  "_LISEZ-MOI": "Modifiez uniquement les textes à droite des ':'. Entourez un mot d'étoiles (*mot*) pour l'afficher en italique terracotta.",
   "brand": {
     "name": "Social by Lisa",
     "logo": "images/logo.png"
@@ -56,11 +56,13 @@
     "socials": [
       {
         "label": "Instagram",
-        "url": "https://www.instagram.com/social_bylisa/"
+        "url": "https://www.instagram.com/social_bylisa/",
+        "icon": "instagram"
       },
       {
         "label": "LinkedIn",
-        "url": "https://www.linkedin.com/in/lisa-mailly-619302285/"
+        "url": "https://www.linkedin.com/in/lisa-mailly-619302285/",
+        "icon": "linkedin"
       }
     ]
   },
@@ -110,7 +112,7 @@
     "cta": "Construisons votre formule"
   },
   "portfolio": {
-    "title": "Portfolio",
+    "title": "Portfolio & *Projets*",
     "intro": "Trois marques accompagnées, trois univers différents : un aperçu de mon travail.",
     "items": [
       {
@@ -254,6 +256,15 @@
         "role": "Chargée de communication",
         "example": false
       }
+    ],
+    "partnersTitle": "Elles me font confiance",
+    "partners": [
+      { "name": "Partenaire 1", "logo": "images/logo-partner1.png" },
+      { "name": "Partenaire 2", "logo": "images/logo-partner2.png" },
+      { "name": "Partenaire 3", "logo": "images/logo-partner3.png" },
+      { "name": "Partenaire 4", "logo": "images/logo-partner4.png" },
+      { "name": "Partenaire 5", "logo": "images/logo-partner5.png" },
+      { "name": "Partenaire 6", "logo": "images/logo-partner6.png" }
     ]
   },
   "faq": {
@@ -264,16 +275,16 @@
         "a": "Non. Je suis basée près de Lille, mais je travaille à 100 % à distance avec des clients basés partout en France."
       },
       {
+        "q": "Sur quelles plateformes et réseaux sociaux intervenez-vous ?",
+        "a": "Je gère et optimise vos contenus sur Facebook, Instagram, TikTok et LinkedIn. Nous choisissons ensemble les canaux les plus stratégiques selon vos objectifs et votre cible."
+      },
+      {
         "q": "Quelle formule choisir entre Community Management et Création de contenu ?",
         "a": "Si vous souhaitez déléguer toute la gestion (rédaction, publication, modération, stories), choisissez le Community Management. Si vous souhaitez publier vous-même mais avoir du contenu professionnel prêt à diffuser, la Création de contenu est idéale. Nous faisons le point lors de l'appel découverte."
       },
       {
         "q": "Proposez-vous un accompagnement sur-mesure ?",
         "a": "Oui tout à fait. Si vos besoins ne rentrent pas dans les packs standards, nous composons une offre adaptée à vos priorités et à votre budget."
-      },
-      {
-        "q": "Sur quelles plateformes intervenez-vous ?",
-        "a": "Principalement sur Instagram, Facebook et LinkedIn, en ciblant les réseaux les plus pertinents pour votre clientèle."
       }
     ]
   },
